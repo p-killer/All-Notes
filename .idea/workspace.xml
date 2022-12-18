@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24d54847-9884-4115-97d9-01159354bab5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/design_patterns/behavioral/state.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/design_patterns/Structural/Adapter.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/design_patterns/Structural/Adapter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/design_patterns/Structural/Bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/design_patterns/Structural/Bridge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/design_patterns/Structural/Facad.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/design_patterns/Structural/Facade.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Python.Bridge">
+  <component name="RunManager" selected="Python.state">
     <configuration name="Adapter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Observer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Facade" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +83,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/design_patterns/behavioral" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/design_patterns/Structural" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/design_patterns/behavioral/Observer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/design_patterns/Structural/Facade.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="builder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="state" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +125,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/design_patterns/creational" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/design_patterns/behavioral" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/design_patterns/creational/builder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/design_patterns/behavioral/state.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.state" />
+        <item itemvalue="Python.Facade" />
         <item itemvalue="Python.Bridge" />
         <item itemvalue="Python.Adapter" />
         <item itemvalue="Python.Strategy" />
-        <item itemvalue="Python.Observer" />
-        <item itemvalue="Python.builder" />
       </list>
     </recent_temporary>
   </component>
@@ -175,22 +174,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1671208304904">
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1671353204565">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1671208304904" />
-    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1671208304904">
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1671353204565" />
+    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1671353204565">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1671208304904" />
-    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1671208304904">
+    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1671353204565" />
+    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1671353204565">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1671208304904" />
-    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1671208304904">
+    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1671353204565" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1671353204565">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1671208304904" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1671353204565" />
     <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1670989024739">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
